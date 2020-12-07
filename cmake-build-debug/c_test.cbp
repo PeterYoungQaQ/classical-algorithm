@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/code/c_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_test">
+				<Option output="E:/code/c_test/cmake-build-debug/c_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/code/c_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_test"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_test/fast">
+				<Option output="E:/code/c_test/cmake-build-debug/c_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/code/c_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="e:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_test/fast"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/code/c_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/code/c_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;E:/code/c_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/code/c_test/algorithm/greedy-algorithm/event-scheduling-issues.h">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="E:/code/c_test/algorithm/recursive-algorithm/divide-and-conquer-algorithm/mergequeue.h">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="E:/code/c_test/algorithm/recursive-algorithm/divide-and-conquer-algorithm/rankselect.h">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="E:/code/c_test/algorithm/recursive-algorithm/divide-and-conquer-algorithm/routedate.h">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="E:/code/c_test/algorithm/recursive-algorithm/divide-and-conquer-algorithm/speedqueue.h">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="E:/code/c_test/algorithm/recursive-algorithm/dynamic-planning/longest-common-subsequence.h">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="E:/code/c_test/algorithm/recursive-algorithm/dynamic-planning/mulit-matrix.h">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="E:/code/c_test/algorithm/recursive-algorithm/dynamic-planning/optima-binary-search-tree.h">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="E:/code/c_test/algorithm/recursive-algorithm/dynamic-planning/zero-one-knapsack-problem.h">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="E:/code/c_test/main.c">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="E:/code/c_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
