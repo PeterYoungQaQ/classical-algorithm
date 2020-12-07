@@ -42,7 +42,7 @@ void greedy(int s[],int f[],int a[],int k)
     int count = 1;
     for(i=1;i<k;i++)
     {
-        if(s[i] > f[j])
+        if(s[i] >= f[j])
         {
             a[i] = 1;
             printf("¿ªÊ¼%d,½áÊø%d.",s[i],f[i]);
