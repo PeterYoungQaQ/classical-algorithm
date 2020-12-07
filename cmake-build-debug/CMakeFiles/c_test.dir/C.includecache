@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+E:/code/c_test/algorithm/greedy-algorithm/backpack-problem .h
+
 E:/code/c_test/algorithm/greedy-algorithm/event-scheduling-issues.h
 
 E:/code/c_test/algorithm/recursive-algorithm/divide-and-conquer-algorithm/mergequeue.h
@@ -67,4 +69,6 @@ algorithm/recursive-algorithm/dynamic-planning/optima-binary-search-tree.h
 E:/code/c_test/algorithm/recursive-algorithm/dynamic-planning/optima-binary-search-tree.h
 algorithm/greedy-algorithm/event-scheduling-issues.h
 E:/code/c_test/algorithm/greedy-algorithm/event-scheduling-issues.h
+algorithm/greedy-algorithm/backpack-problem .h
+E:/code/c_test/algorithm/greedy-algorithm/backpack-problem .h
 

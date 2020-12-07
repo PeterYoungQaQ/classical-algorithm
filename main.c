@@ -10,6 +10,7 @@
 #include "algorithm/recursive-algorithm/dynamic-planning/zero-one-knapsack-problem.h"
 #include "algorithm/recursive-algorithm/dynamic-planning/optima-binary-search-tree.h"
 #include "algorithm/greedy-algorithm/event-scheduling-issues.h"
+#include "algorithm/greedy-algorithm/backpack-problem.h"
 
 int main() {
     /*递归算法*/
@@ -27,6 +28,7 @@ int main() {
 // --------------------------------------------------------------------------------
     /*贪心算法*/
     // ESI(); // 活动安排问题
+    // backpack(); // 背包问题
     return 0;
 }
 
