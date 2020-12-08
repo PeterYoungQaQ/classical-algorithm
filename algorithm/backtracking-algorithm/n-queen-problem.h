@@ -29,7 +29,7 @@ int count =0;
      if(index == n +1)
      {
          count++;
-         for(int k = 1; k <= n; k++ )
+         for(int k = 1; k <= n; k++)
          {
              printf("%d ",p[k]);
          }
