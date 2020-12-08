@@ -89,6 +89,9 @@
 		<Unit filename="E:/code/c_test/algorithm/greedy-algorithm/single-source-shortest-paths.h">
 			<Option target="c_test"/>
 		</Unit>
+		<Unit filename="E:/code/c_test/algorithm/main.h">
+			<Option target="c_test"/>
+		</Unit>
 		<Unit filename="E:/code/c_test/algorithm/recursive-algorithm/divide-and-conquer-algorithm/mergequeue.h">
 			<Option target="c_test"/>
 		</Unit>

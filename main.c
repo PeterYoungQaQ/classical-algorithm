@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdbool.h>
+#include <math.h>
 #include "algorithm/recursive-algorithm/divide-and-conquer-algorithm/mergequeue.h"
 #include "algorithm/recursive-algorithm/divide-and-conquer-algorithm/speedqueue.h"
 #include "algorithm/recursive-algorithm/divide-and-conquer-algorithm/rankselect.h"
@@ -13,8 +15,10 @@
 #include "algorithm/greedy-algorithm/backpack-problem.h"
 #include "algorithm/greedy-algorithm/single-source-shortest-paths.h"
 #include "algorithm/backtracking-algorithm/container-loading-problem.h"
+#include "algorithm/backtracking-algorithm/n-queen-problem.h"
 
 int main() {
+//---------------------------------------------------------------------------------
     /*递归算法*/
     // 1.分治法
     // merge_queue(); // 合并排序
@@ -33,6 +37,11 @@ int main() {
     // Dijkstra(); // 最短单源路径问题
 // --------------------------------------------------------------------------------
     /*回溯算法*/
+    // CLP(); // 装载问题
+    // nqueen(); // n皇后问题
+//---------------------------------------------------------------------------------
+    /*分支限界算法*/
+
     return 0;
 }
 
