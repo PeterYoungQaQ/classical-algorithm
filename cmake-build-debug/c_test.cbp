@@ -80,6 +80,15 @@
 		<Unit filename="E:/code/c_test/algorithm/backtracking-algorithm/n-queen-problem.h">
 			<Option target="c_test"/>
 		</Unit>
+		<Unit filename="E:/code/c_test/algorithm/branch-limiting-method/loading-problem.h">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="E:/code/c_test/algorithm/branch-limiting-method/shortest-path-for-single-source.h">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="E:/code/c_test/algorithm/branch-limiting-method/zero-one-bag.h">
+			<Option target="c_test"/>
+		</Unit>
 		<Unit filename="E:/code/c_test/algorithm/greedy-algorithm/backpack-problem.h">
 			<Option target="c_test"/>
 		</Unit>
@@ -87,9 +96,6 @@
 			<Option target="c_test"/>
 		</Unit>
 		<Unit filename="E:/code/c_test/algorithm/greedy-algorithm/single-source-shortest-paths.h">
-			<Option target="c_test"/>
-		</Unit>
-		<Unit filename="E:/code/c_test/algorithm/main.h">
 			<Option target="c_test"/>
 		</Unit>
 		<Unit filename="E:/code/c_test/algorithm/recursive-algorithm/divide-and-conquer-algorithm/mergequeue.h">
