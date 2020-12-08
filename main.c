@@ -16,6 +16,9 @@
 #include "algorithm/greedy-algorithm/single-source-shortest-paths.h"
 #include "algorithm/backtracking-algorithm/container-loading-problem.h"
 #include "algorithm/backtracking-algorithm/n-queen-problem.h"
+#include "algorithm/branch-limiting-method/zero-one-bag.h"
+#include "algorithm/branch-limiting-method/shortest-path-for-single-source.h"
+#include "algorithm/branch-limiting-method/loading-problem.h"
 
 int main() {
 //---------------------------------------------------------------------------------
@@ -28,7 +31,7 @@ int main() {
     // 2.动态规划算法
     // multimatrix(); // 矩阵连乘问题
     // LCS(); // 最长公共子序列问题
-    // zero_one_bag(); // 0/1背包问题
+    // zero_one_bag(); // 0/1背包问题，使用动态规划法
     // OBST(); // 最优二叉查找树
 // --------------------------------------------------------------------------------
     /*贪心算法*/
@@ -41,7 +44,9 @@ int main() {
     // nqueen(); // n皇后问题
 //---------------------------------------------------------------------------------
     /*分支限界算法*/
-
+    // bagbranch(); // 0/1背包问题，使用分支限界法
+    // SPFSS();    // 单源路径最短问题，使用分支限界法
+    // loading_problem(); // 装载问题，使用分支限界法
     return 0;
 }
 
