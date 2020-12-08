@@ -74,7 +74,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/code/c_test/algorithm/greedy-algorithm/backpack-problem .h">
+		<Unit filename="E:/code/c_test/algorithm/backtracking-algorithm/container-loading-problem.h">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="E:/code/c_test/algorithm/backtracking-algorithm/n-queen-problem.h">
+			<Option target="c_test"/>
+		</Unit>
+		<Unit filename="E:/code/c_test/algorithm/greedy-algorithm/backpack-problem.h">
 			<Option target="c_test"/>
 		</Unit>
 		<Unit filename="E:/code/c_test/algorithm/greedy-algorithm/event-scheduling-issues.h">

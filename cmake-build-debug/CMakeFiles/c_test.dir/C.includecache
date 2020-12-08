@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
-E:/code/c_test/algorithm/greedy-algorithm/backpack-problem .h
+E:/code/c_test/algorithm/backtracking-algorithm/container-loading-problem.h
+stdio.h
+-
+stdlib.h
+-
+
+E:/code/c_test/algorithm/backtracking-algorithm/n-queen-problem.h
+
+E:/code/c_test/algorithm/greedy-algorithm/backpack-problem.h
 
 E:/code/c_test/algorithm/greedy-algorithm/event-scheduling-issues.h
+
+E:/code/c_test/algorithm/greedy-algorithm/single-source-shortest-paths.h
 
 E:/code/c_test/algorithm/recursive-algorithm/divide-and-conquer-algorithm/mergequeue.h
 stdio.h
@@ -51,6 +61,10 @@ stdlib.h
 -
 string.h
 -
+stdbool.h
+-
+math.h
+-
 algorithm/recursive-algorithm/divide-and-conquer-algorithm/mergequeue.h
 E:/code/c_test/algorithm/recursive-algorithm/divide-and-conquer-algorithm/mergequeue.h
 algorithm/recursive-algorithm/divide-and-conquer-algorithm/speedqueue.h
@@ -69,6 +83,12 @@ algorithm/recursive-algorithm/dynamic-planning/optima-binary-search-tree.h
 E:/code/c_test/algorithm/recursive-algorithm/dynamic-planning/optima-binary-search-tree.h
 algorithm/greedy-algorithm/event-scheduling-issues.h
 E:/code/c_test/algorithm/greedy-algorithm/event-scheduling-issues.h
-algorithm/greedy-algorithm/backpack-problem .h
-E:/code/c_test/algorithm/greedy-algorithm/backpack-problem .h
+algorithm/greedy-algorithm/backpack-problem.h
+E:/code/c_test/algorithm/greedy-algorithm/backpack-problem.h
+algorithm/greedy-algorithm/single-source-shortest-paths.h
+E:/code/c_test/algorithm/greedy-algorithm/single-source-shortest-paths.h
+algorithm/backtracking-algorithm/container-loading-problem.h
+E:/code/c_test/algorithm/backtracking-algorithm/container-loading-problem.h
+algorithm/backtracking-algorithm/n-queen-problem.h
+E:/code/c_test/algorithm/backtracking-algorithm/n-queen-problem.h
 
