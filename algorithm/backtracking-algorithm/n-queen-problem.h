@@ -18,7 +18,7 @@
 |i-j| ≠ |xi - xj|
 */
 
-#define n 4
+#define n 8
 bool hash[n+1];
 int p[n+1];
 int count =0;
@@ -45,7 +45,7 @@ int count =0;
              bool flag = true;//表示当前的皇后不会和之前的皇后冲突
              for(int pre =1; pre < index; pre++)//遍历之前的皇后
              {
-                 if(abs(index - pre) == abs(x - p[pre]))
+                 if(abs(index - pre) == abs(x - p[pre]) || pre == index)
                  {
                      flag = false;
                      break;
